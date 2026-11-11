@@ -1,0 +1,9 @@
+{
+  "name": "coladera-inteligente-rest-api-mysql",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node RestApi-EquipoX-Matricula.js", "dev": "node --watch RestApi-EquipoX-Matricula.js" },
+  "dependencies": { "dotenv": "^16.4.7", "mysql2": "^3.14.0" }
+}
